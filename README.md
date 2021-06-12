@@ -15,6 +15,7 @@ If you had Gazebo installed when compiling Robominer's packages, Gazebo support 
   1. Setup environment variables (the order is important):
    . /usr/share/gazebo/setup.sh
    . ~/ws/install/setup.bash
+  
   2.Launch Robominer in a cave (this will take some time to download models):
      ros2 launch robominer_gazebo robominer.launch.py world:=robominer_cave.world
      
